@@ -15,7 +15,7 @@ import { Container } from "../Components/Containers"
 import { Input } from "../Components/Input"
 import { Title } from "../Components/Title"
 
-import { Address } from "./ConfirmFirstTimeBid"
+import { Address } from "./ConfirmBid"
 
 interface BillingAddressProps {
   onSubmit?: (values: Address) => void
